@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculadora de Motores</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Calculadora de Motores</h1>
+    <p>Preencha o que souber. Os resultados aparecem enquanto você digita.</p>
+    <label class="toggle"><input type="checkbox" id="memo" checked> Mostrar memória de cálculo</label>
+  </header>
+
+  <nav class="tabs" id="abas" role="tablist"></nav>
+  <main id="app"></main>
+
+  <script src="units.js"></script>
+  <script src="calc.js"></script>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
